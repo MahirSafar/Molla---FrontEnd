@@ -37,16 +37,6 @@ $(document).ready(function () {
     })
 
 })
-// $(document).ready(function () {
-//     $(".sections .menu .caret i").each(function(index){
-//         $(this).click(function(){
-//             $(".sections .menu .content").each(function(){
-//                 $(this).slideToggle()
-//                 return;
-//             });
-//         })
-//     })
-// });
 
 let allPrice = 0;
 let tableBody = document.querySelector("#cart .products table tbody")
@@ -165,7 +155,7 @@ removeBtn.forEach(element => {
         topTotal.innerHTML = "$" + diff.toLocaleString();
         botTotal.innerHTML = "$" + diff.toLocaleString();
 
-        getCount(JSON.parse(localStorage.getItem("basket"))); // sayacı güncelle
+        getCount(JSON.parse(localStorage.getItem("basket")));
     })
 })
 
