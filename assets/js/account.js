@@ -13,12 +13,7 @@ $(document).ready(function () {
         if ($(window).width() > 991) {
             $(".sidebar").animate({ left: '-280px' });
         }
-    //     else if ($("#topCenter .left .iconBar i").data('clicked') && $(window).width() < 991) {
-    //         $(".sidebar").animate({ left: '280px' });
-    //     }
-    //     else if($(".sidebar .close i").data('clicked')){
-    //         $(".sidebar").animate({left: '-280px'})
-    //     }
+
     });
 });
 $(document).ready(function () {
@@ -42,16 +37,8 @@ $(document).ready(function () {
     })
 
 })
-// $(document).ready(function () {
-//     $(".sections .menu .caret i").each(function(index){
-//         $(this).click(function(){
-//             $(".sections .menu .content").each(function(){
-//                 $(this).slideToggle()
-//                 return;
-//             });
-//         })
-//     })
-// });
+
+
 
 //login
 $(document).ready(function(){

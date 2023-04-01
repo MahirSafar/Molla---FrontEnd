@@ -13,12 +13,7 @@ $(document).ready(function () {
         if ($(window).width() > 991) {
             $(".sidebar").animate({ left: '-280px' });
         }
-        //     else if ($("#topCenter .left .iconBar i").data('clicked') && $(window).width() < 991) {
-        //         $(".sidebar").animate({ left: '280px' });
-        //     }
-        //     else if($(".sidebar .close i").data('clicked')){
-        //         $(".sidebar").animate({left: '-280px'})
-        //     }
+
     });
 });
 $(document).ready(function () {
@@ -42,16 +37,7 @@ $(document).ready(function () {
     })
 
 })
-// $(document).ready(function () {
-//     $(".sections .menus .caret i").each(function(index){
-//         $(this).click(function(){
-//             $(".sections .menus .content").each(function(){
-//                 $(this).slideToggle()
-//                 return;
-//             });
-//         })
-//     })
-// });
+
 
 
 
@@ -388,17 +374,7 @@ toWish.forEach(element => {
         localStorage.setItem("wishlist", JSON.stringify(wishlist));
         getWishCount(wishlist)
     })
-    // let productId = parseInt(element.closest(".card").getAttribute("data-id"));
-    // let exist = wishlist.find(m => m.id == productId);
-    // console.log(exist);
-    // if (exist != undefined) {
-    //     element.classList.add("fa-regular")
-    //     element.classList.remove("fa-solid")
-    // }
-    // else{
-    //     element.classList.remove("fa-regular")
-    //     element.classList.add("fa-solid")
-    // }
+
 });
 
 let wishNewList = JSON.parse(localStorage.getItem("wishlist")) || [];

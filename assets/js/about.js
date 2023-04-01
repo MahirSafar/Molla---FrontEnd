@@ -36,16 +36,7 @@ $(document).ready(function () {
     })
 
 })
-// $(document).ready(function () {
-//     $(".sections .menu .caret i").each(function(index){
-//         $(this).click(function(){
-//             $(".sections .menu .content").each(function(){
-//                 $(this).slideToggle()
-//                 return;
-//             });
-//         })
-//     })
-// });
+
 
 $('.members').owlCarousel({
     loop:false,

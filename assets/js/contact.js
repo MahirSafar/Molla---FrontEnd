@@ -13,12 +13,7 @@ $(document).ready(function () {
         if ($(window).width() > 991) {
             $(".sidebar").animate({ left: '-280px' });
         }
-    //     else if ($("#topCenter .left .iconBar i").data('clicked') && $(window).width() < 991) {
-    //         $(".sidebar").animate({ left: '280px' });
-    //     }
-    //     else if($(".sidebar .close i").data('clicked')){
-    //         $(".sidebar").animate({left: '-280px'})
-    //     }
+
     });
 });
 $(document).ready(function () {
@@ -42,18 +37,8 @@ $(document).ready(function () {
     })
 
 })
-// $(document).ready(function () {
-//     $(".sections .menu .caret i").each(function(index){
-//         $(this).click(function(){
-//             $(".sections .menu .content").each(function(){
-//                 $(this).slideToggle()
-//                 return;
-//             });
-//         })
-//     })
-// });
+
 function initMap() {
-  // Konum Tabanlı İşlevsellik İçin Gerekli Kod
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       var pos = {
@@ -76,25 +61,25 @@ function initMap() {
     alert('Tarayıcınız konum tabanlı işlevsellik desteklemiyor.');
   }
 }
-// Initialize and add the map
+
 let map;
 
 async function initMap() {
-  // The location of Uluru
+
   const position = { lat: -25.344, lng: 131.031 };
-  // Request needed libraries.
-  //@ts-ignore
+
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
 
-  // The map, centered at Uluru
+
   map = new Map(document.getElementById("map"), {
     zoom: 4,
     center: position,
     mapId: "DEMO_MAP_ID",
   });
 
-  // The marker, positioned at Uluru
+
+
   const marker = new AdvancedMarkerView({
     map: map,
     position: position,
