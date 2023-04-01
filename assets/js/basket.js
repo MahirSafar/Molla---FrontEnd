@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $("#topCenter .left .iconBar i").click(function () {
         $(".sidebar").animate({ left: '280px' });
@@ -13,12 +14,6 @@ $(document).ready(function () {
         if ($(window).width() > 991) {
             $(".sidebar").animate({ left: '-280px' });
         }
-        //     else if ($("#topCenter .left .iconBar i").data('clicked') && $(window).width() < 991) {
-        //         $(".sidebar").animate({ left: '280px' });
-        //     }
-        //     else if($(".sidebar .close i").data('clicked')){
-        //         $(".sidebar").animate({left: '-280px'})
-        //     }
     });
 });
 $(document).ready(function () {
