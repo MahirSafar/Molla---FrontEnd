@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/scss/pages/about.css">
+</head>
+
+<body>
+    <header>
+        <section id="topHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="left">
+                            <a href="">
+                                <i class="fa-solid fa-phone"></i> Call: +0123 456 789
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="right">
+                            <div class="maxWidth">
+                                <ul>
+                                    <li>
+                                        <div class="usdDrop">
+                                            <a href="">USD <i class="fa-solid fa-angle-down"></i></a>
+                                            <div class="dropdownUsd">
+                                                <a href="">Eur </a>
+                                                <a href="">Usd </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="usdDrop">
+                                            <a href="">English <i class="fa-solid fa-angle-down"></i></a>
+                                            <div class="dropdownLang">
+                                                <a href="">English </i></a>
+                                                <a href="">French </i></a>
+                                                <a href="">Spanish </i></a>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li><a href="account.html">Sign in / Sign up</i></a></li>
+                                </ul>
+                            </div>
+                            <!-- under991px -->
+                            <div class="minWidth d-none">
+                                <a href="" class="linkDrop">Links <i class="fa-solid fa-angle-down"></i>
+                                    <div class="dropdownLink">
+                                        <ul>
+                                            <li>
+                                                <div class="dropUSD">
+                                                    <a href="">USD<i class="fa-solid fa-angle-down"></i></a>
+                                                    <div class="dropdownUSD">
+                                                        <a href="">Eur </a>
+                                                        <a href="">Usd </a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropUSD">
+                                                    <a href="">English<i class="fa-solid fa-angle-down"></i></a>
+                                                    <div class="dropdownLANG">
+                                                        <a href="">English </i></a>
+                                                        <a href="">French </i></a>
+                                                        <a href="">Spanish </i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><a href="">Sign in / Sign up</a></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="line"></div> -->
+        </section>
+
+        <section id="topCenter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="left">
+                            <div class="iconBar d-none">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <div class="img">
+                                <a href="home.html">
+                                    <img src="assets/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="center">
+                            <div class="search">
+                                <button>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                                <input type="text" placeholder="Search product ...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="right">
+                            <div class="icons">
+                                <div class="compare">
+                                    <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                                    <p>Compare</p>
+
+                                    <div class="products">
+                                        <p>No products in the compare.</p>
+                                    </div>
+                                </div>
+
+                                <div class="wish">
+                                    <a href="wishlist.html"><i class="fa-regular fa-heart"><sup>0</sup></i></a>
+                                    <p>Wishlist</p>
+                                </div>
+
+                                <div class="cart">
+                                    <a href="basket.html"><i class="fa-solid fa-cart-shopping"><sup>0</sup></i></a>
+                                    <p>Cart</p>
+                                    <div class="products">
+                                        <p>No products in the compare.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="topBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="left">
+                            <div class="iconBar">
+                                <i class="fa-solid fa-bars bar"></i>
+                                <i class="fa-solid fa-xmark close" style="color: white;"></i>
+                            </div>
+                            <div class="catog">
+                                <p>Browse Categories</p>
+                                <div class="icon">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="">Electronics</a></li>
+                                    <li><a href="">Gift Ideas</a></li>
+                                    <li><a href="">Beds</a></li>
+                                    <li><a href="">Lighting</a></li>
+                                    <li><a href="">Sofas & Sleeper sofas</a></li>
+                                    <li><a href="">Storage</a></li>
+                                    <li><a href="">Armchairs &Chaises</a></li>
+                                    <li><a href="">Decoration</a></li>
+                                    <li><a href="">Kitchen Cabinets</a></li>
+                                    <li><a href="">Coffee & Tables</a></li>
+                                    <li><a href="">Outdoor Furniture</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-ld-6 col-md-6 col-sm-6">
+                        <div class="center">
+                            <ul>
+                                <div class="caret">
+                                    <li><a href="home.html">Home</a></li>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="caret">
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="caret">
+                                    <li><a href="account.html">Account</a></li>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="caret" style="position: relative;">
+                                    <li class="page"><a href="" style="color: #fcb941;">Pages</a>
+                                        <div class="dropPage">
+                                            <ul>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="account.html">Account</a></li>
+                                                <li><a href="basket.html">Basket</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <i class="fa-solid fa-angle-down" style="color: #fcb941;"></i>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="caret">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div class="caret">
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="right">
+                            <div class="line"></div>
+                            <div class="bulb">
+                                <i class="fa-regular fa-lightbulb"></i>
+                            </div>
+                            <div class="text">
+                                <p class="first"><span>Clearance </span>Up to 30% Off</p>
+                                <p class="second"><span>Clearance </span>Up to 30% ...</p>
+                                <p class="third"><span>Clearance </span>Up to 30%...</p>
+                                <p class="fourth"><span>Clearance </span>Up to 30...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="tabs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tab">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <i class="fa-solid fa-angle-right"></i>
+                                <li><a href="">Pages</a></li>
+                                <i class="fa-solid fa-angle-right"></i>
+                                <li class="login"><a href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="aboutUs">
+                            <div class="img">
+                                <img src="assets/img/about-header-bg.jpg" alt="">
+                                <div class="text">
+                                    <p>About us</p>
+                                    <span>Who we are</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mission">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="left">
+                            <p>Our Vision</p>
+                            <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.
+                                Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel,
+                                nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                blandit nunc tortor eu nibh. </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="right">
+                            <p>Our Mission</p>
+                            <span>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
+                                libero
+                                eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed
+                                lectus. <br> Praesent elementum hendrerit tortor. Sed semper lorem at felis. </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="who">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="whoWe">
+                            <div class="top">
+                                <p>Who We Are</p>
+                            </div>
+                            <div class="centerTop">
+                                <span>Pellentesque odio nisi, euismod pharetra a ultricies
+                                    in diam. Sed arcu. Cras consequat</span>
+                            </div>
+                            <div class="centerBot">
+                                <span>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                    blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate
+                                    volutpat, uctus metus libero eu augue.</span>
+                            </div>
+                            <div class="bottom">
+                                <button>VIEW OUR NEWS &#8594</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="imgs">
+                            <div class="imgBack">
+                                <img src="assets/img/back.jpg" alt="">
+                            </div>
+                            <div class="imgFront">
+                                <img src="assets/img/front.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brands">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-8">
+                        <div class="text">
+                            <p>The world's premium design brands in one destination.</p>
+                            <span>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel,
+                                dapibus id, mattis vel, nis</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="images">
+                            <div class="top">
+                                <div class="img">
+                                    <img src="assets/img/1.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="assets/img/2.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="assets/img/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="center">
+                                <div class="img">
+                                    <img src="assets/img/4.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="assets/img/5.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="assets/img/6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <div class="img">
+                                    <img src="assets/img/7.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="assets/img/8.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="assets/img/9.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="head">
+                            <p>Meet Our Team</p>
+                        </div>
+                        <div class="members owl-carousel owl-theme">
+                            <div class="member">
+                                <div class="img">
+                                    <img src="assets/img/member-1.jpg" alt="">
+                                    <div class="about">
+                                        <p>Samanta Grey <br><span>Founder & CEO</span></p>
+                                        <span>Sed pretium, ligula sollicitudin <br> viverra, tortor libero sodales leo,
+                                            <br> eget
+                                            blandit nunc.</span>
+                                        <div class="socials">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shortAbout">
+                                    <p>Samanta Grey <br><span>Founder & CEO</span></p>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="img">
+                                    <img src="assets/img/member-2.jpg" alt="">
+                                    <div class="about">
+                                        <p>Bruce Sutton <br><span>Sales & Marketing Manager</span></p>
+                                        <span>Sed pretium, ligula sollicitudin <br> viverra, tortor libero sodales leo,
+                                            <br> eget
+                                            blandit nunc.</span>
+                                        <div class="socials">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shortAbout">
+                                    <p>Bruce Sutton <br><span>Sales & Marketing Manager</span></p>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="img">
+                                    <img src="assets/img/member-3.jpg" alt="">
+                                    <div class="about">
+                                        <p>Janet Joy <br><span>Product Manager</span></p>
+                                        <span>Sed pretium, ligula sollicitudin <br> viverra, tortor libero sodales leo,
+                                            <br> eget
+                                            blandit nunc.</span>
+                                        <div class="socials">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shortAbout">
+                                    <p>Janet Joy <br><span>Product Manager</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="customers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="all">
+                            <div class="top">
+                                <p>What Customer Say About Us</p>
+                            </div>
+                            <div class="customers owl-carousel owl-theme">
+                                <div class="customer">
+                                    <div class="img">
+                                        <img src="assets/img/user-1.jpg" alt="">
+                                    </div>
+                                    <div class="bottom">
+                                        <span>“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque
+                                            aliquet
+                                            nibh nec urna. <br>In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.
+                                            Sed
+                                            pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo,
+                                            eget
+                                            blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+                                            ”</span>
+                                        <p>Jenson Gregory</p>
+                                        <span style="color: #333333;">Customer</span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="img">
+                                        <img src="assets/img/user-2.jpg" alt="">
+                                    </div>
+                                    <div class="bottom">
+                                        <span>“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati
+                                            optio
+                                            eius error libero perferendis nesciunt atque dolores magni recusandae!
+                                            Doloremque quidem error eum quis similique doloribus natus qui ut
+                                            ipsum.Velit
+                                            quos ipsa exercitationem, vel unde obcaecati impedit eveniet non. ”</span>
+                                        <p>Victoria Ventura</p>
+                                        <span style="color: #333333;">Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="footbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="leftl">
+                            <div class="logo">
+                                <img src="assets/img/logo-footer.png" alt="">
+                            </div>
+                            <span>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate
+                                magna
+                                eros eu erat.</span>
+                            <div class="contact">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="text">
+                                    <span>Got Question? Call us 24/7</span>
+                                    <p>+0123 456 789</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="left">
+                            <p>Useful Links</p>
+                            <span>About Molla</span>
+                            <span>Our Services</span>
+                            <span>How to shop on Molla</span>
+                            <span>FAQ</span>
+                            <span>Contact us</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="right">
+                            <p>Customer Service</p>
+                            <span>Payment Methods</span>
+                            <span>Money-back guarantee!</span>
+                            <span>Returns</span>
+                            <span>Shipping</span>
+                            <span>Terms and conditions</span>
+                            <span>Privacy Policy</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="rightr">
+                            <p>My Account</p>
+                            <span>Sign In</span>
+                            <span>View Cart</span>
+                            <span>My Wishlist</span>
+                            <span>Track My Order</span>
+                            <span>Help</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="botFoot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="left">
+                            <p>Copyright © 2023 Molla Store. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="logos">
+                            <img src="assets/img/payments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <div class="sidebar">
+        <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search product ...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="headings">
+            <button class="menu">
+                <p>MENU</p>
+            </button>
+            <button class="catog">
+                <p>CATEGORIES</p>
+            </button>
+        </div>
+        <div class="sections">
+            <div class="menu ">
+                <ul>
+                    <div class="caret">
+                        <li><a href="">HOME</a></li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="content">
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                    </ul>
+                    <div class="caret">
+                        <li><a href="">SHOP</a></li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="content">
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                    </ul>
+                    <div class="caret">
+                        <li><a href="">ACCOUNT</a></li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="content">
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                    </ul>
+                    <div class="caret">
+                        <li><a href="">ABOUT</a></li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="content">
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                    </ul>
+                    <div class="caret">
+                        <li><a href="">BLOG</a></li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="content">
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                    </ul>
+                    <div class="caret">
+                        <li><a href="">CONTACT</a></li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="content">
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                        <li><a href="">Lorem, ipsum dolor.</a></li>
+                    </ul>
+                </ul>
+                <div class="social">
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="twit">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catog d-none">
+                <ul>
+                    <div class="caret">
+                        <li><a href="">Electronics</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Gift Ideas</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Beds</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Lighting</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Sofas & Sleeper sofas</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Storage</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Armchairs &Chaises</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Decoration</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Kitchen Cabinets</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Coffee & Tables</a></li>
+                    </div>
+                    <div class="caret">
+                        <li><a href="">Outdoor Furniture</a></li>
+                    </div>
+                </ul>
+                <div class="social">
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="twit">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/81978b2f48.js" crossorigin="anonymous"></script>
+    <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/about.js"></script>
+</body>
+
+</html>
